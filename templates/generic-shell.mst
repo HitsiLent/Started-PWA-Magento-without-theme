@@ -1,9 +1,9 @@
 {{> templates/open-document}}
     {{#model}}
-    <title>{{title}} - Welagon</title>
+    <title>{{title}} - started-pwa</title>
     {{/model}}
     {{^model}}
-    <title>Welagon</title>
+    <title>started-pwa</title>
     {{/model}}
   {{> templates/open-body }}
     <div id="root">

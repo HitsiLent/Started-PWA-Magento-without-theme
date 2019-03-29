@@ -1,5 +1,5 @@
 {{> templates/open-document}}
-    <title>Welagon -- Not Found</title>
+    <title>started-pwa -- Not Found</title>
   {{> templates/open-body }}
     <div id="root">
         Not found!
