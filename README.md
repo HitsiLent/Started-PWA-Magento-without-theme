@@ -2,6 +2,6 @@ Start-up configuration to create a custom Theme for PWA-Studio. The repository r
 
 ## Started PWA Magento without theme
 
-###Npm watch || Yarn watch
+### Npm watch || Yarn watch
 
 Run the project in development mode.
