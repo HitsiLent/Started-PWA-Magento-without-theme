@@ -117,10 +117,11 @@ module.exports = async function(env) {
                 root: __dirname
             }
         }),
+
+        plugins: [
           // @description webpack plugin que crea trozos para cada uno
           // RootComponent individual en una matriz proporcionada de directorios, y produce un
           // archivo que importa cada uno como un trozo separado.
-        plugins: [
             await makeMagentoRootComponentsPlugin({
                 rootComponentsDirs,
                 context: __dirname
