@@ -13,8 +13,6 @@ const targets = {
   test: 'node 10'
 };
 const config = api => {
-
-  console.log(api.env())
   const envConfigs = {
     development: {
       ignore: [/\/__(tests?|mocks|fixtures|helpers)__\//],
